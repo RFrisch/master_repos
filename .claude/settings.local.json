@@ -6,7 +6,10 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(pip install:*)",
-      "Bash(python -m pip install:*)"
+      "Bash(python -m pip install:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
