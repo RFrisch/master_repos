@@ -9,8 +9,8 @@ from datetime import datetime
 from pathlib import Path
 import concurrent.futures
 
-# Get script directory for output path
-SCRIPT_DIR = Path(__file__).parent
+# Get repo root for output path (one level up from script)
+REPO_ROOT = Path(__file__).parent.parent
 
 # S&P 500 sample tickers (expand as needed)
 TICKERS = [
@@ -111,8 +111,8 @@ def main():
         'stocks': cheap_stocks
     }
 
-    # Save to JSON
-    output_path = SCRIPT_DIR / 'data.json'
+    # Save to JSON (in repo root for GitHub Pages)
+    output_path = REPO_ROOT / 'data.json'
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
 
