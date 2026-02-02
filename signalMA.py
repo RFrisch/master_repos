@@ -14,8 +14,8 @@ def generate_signals(data, short_window=40, long_window=100):
     signals['long_mavg'] = data['Close'].rolling(window=long_window, min_periods=1, center=False).mean()
     
     # Generate signals
-    signals['signal'][short_window:] = np.where(
-        signals['short_mavg'][short_window:] > signals['long_mavg'][short_window:], 1.0, 0.0)
+    signals.loc[signals.index[short_window:], 'signal'] = np.where(
+        signals['short_mavg'].iloc[short_window:] > signals['long_mavg'].iloc[short_window:], 1.0, 0.0)
     
     # Generate trading orders
     signals['positions'] = signals['signal'].diff()
