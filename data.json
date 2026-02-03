@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03 07:02:55 UTC",
+  "last_updated": "2026-02-03 13:20:12 UTC",
   "threshold_percent": 15,
   "total_screened": 324,
   "stocks_found": 59,
@@ -50,12 +50,12 @@
       "pct_above_low": 0.52,
       "range_position": 0.72,
       "pe_ratio": 10.508033,
-      "forward_pe": 9.125628,
+      "forward_pe": 9.117329,
       "market_cap": 49994956800,
       "dividend_yield": 1.07,
       "market_cap_fmt": "$49.99B",
       "pe_ratio_fmt": "10.51",
-      "forward_pe_fmt": "9.13",
+      "forward_pe_fmt": "9.12",
       "dividend_yield_fmt": "1.07%"
     },
     {
@@ -500,7 +500,7 @@
       "pct_above_low": 6.85,
       "range_position": 25.04,
       "pe_ratio": 49.128345,
-      "forward_pe": 26.461092,
+      "forward_pe": 26.45873,
       "market_cap": 136245026816,
       "dividend_yield": null,
       "market_cap_fmt": "$136.25B",
@@ -932,12 +932,12 @@
       "pct_above_low": 14.01,
       "range_position": 31.34,
       "pe_ratio": 12.020363,
-      "forward_pe": 8.913641,
+      "forward_pe": 8.948521,
       "market_cap": 72535351296,
       "dividend_yield": 2.22,
       "market_cap_fmt": "$72.54B",
       "pe_ratio_fmt": "12.02",
-      "forward_pe_fmt": "8.91",
+      "forward_pe_fmt": "8.95",
       "dividend_yield_fmt": "2.22%"
     },
     {
@@ -986,12 +986,12 @@
       "pct_above_low": 14.56,
       "range_position": 53.77,
       "pe_ratio": 34.03125,
-      "forward_pe": 29.644844,
+      "forward_pe": 29.61394,
       "market_cap": 82919628800,
       "dividend_yield": null,
       "market_cap_fmt": "$82.92B",
       "pe_ratio_fmt": "34.03",
-      "forward_pe_fmt": "29.64",
+      "forward_pe_fmt": "29.61",
       "dividend_yield_fmt": "N/A"
     },
     {
@@ -1058,12 +1058,12 @@
       "pct_above_low": 14.88,
       "range_position": 54.68,
       "pe_ratio": 51.81166,
-      "forward_pe": 43.595215,
+      "forward_pe": 43.579887,
       "market_cap": 429910884352,
       "dividend_yield": 0.54,
       "market_cap_fmt": "$429.91B",
       "pe_ratio_fmt": "51.81",
-      "forward_pe_fmt": "43.60",
+      "forward_pe_fmt": "43.58",
       "dividend_yield_fmt": "0.54%"
     }
   ]
